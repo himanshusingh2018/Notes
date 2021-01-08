@@ -1,0 +1,7 @@
+create a directory
+mkdir himanshu_github
+cd himanshu_github
+#initialize the git hub
+git init
+#check the status
+git status
