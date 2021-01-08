@@ -2,6 +2,26 @@ create a directory
 mkdir himanshu_github
 cd himanshu_github
 #initialize the git hub
-git init
+git init	#creates .git folder containing required folders/files
 #check the status
+git status	#find untracked files
+#To track the file or bring file in staging area
+git add . #bring file in staging
+#check status
 git status
+#commit
+git commit -m "my first commit" #commit with message 
+#log information
+git log #commit id: 42 alpha numeric
+
+#check what is added information
+git show <commit id>
+
+#send to central repository/git-hub
+git remote add origin https://github.com/himanshusingh2018/Notes.git
+#push in origin master branch
+git push -u origin master
+
+
+
+
